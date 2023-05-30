@@ -24,7 +24,7 @@ jobs:
                # Provide the AST portal URL
                base_uri: https://anz.ast.checkmarx.net/
                # Provide the Tenant for AST portal URL
-               cx_tenant: cx_ps_apac_hiring
+               cx_tenant: ${{ secrets.CHKMX_TENANT}}
                # Client ID for AST portal authentication
                cx_client_id: ${{ secrets.CHKMX_CLIENTID}}
                # Secret key for AST portal authentication
