@@ -4,7 +4,7 @@ on:
      branches:
        - master
        - v01
-       - v02
+       - test
 
 jobs:
    AST_Scan:
